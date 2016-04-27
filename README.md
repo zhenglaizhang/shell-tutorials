@@ -13,6 +13,11 @@ chomd -R group:user ~/the-dir
 ```bash
 # view tcp/udp port usage
 sudo lsof -iTCP -sTCP:LISTEN -n -P
+
+# view c file numbers
+find . -name "*\.[hc]" -print | wc –l
+# view file content numbers
+find . -name "*\.[hc]" -print | xargs wc -l | tail -n1
 ```
 
 ## File transfer
