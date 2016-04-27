@@ -8,7 +8,12 @@ cd ~ && rm -rf dir1 dir2
 chmod -R 755 ~/the-dir
 chomd -R group:user ~/the-dir
 ```
+### Usage
 
+```bash
+# view tcp/udp port usage
+sudo lsof -iTCP -sTCP:LISTEN -n -P
+```
 
 ## File transfer
 
