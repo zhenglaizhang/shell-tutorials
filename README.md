@@ -26,3 +26,13 @@ find . -name "*\.[hc]" -print | xargs wc -l | tail -n1
 scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/
 scp user@your.server.example.com:/path/to/foo/file /home/user/Desktop/file
 ```
+
+## Network commands
+
+```bash
+route get localhost
+route -v get localhost
+
+
+traceroute www.baidu.com
+```
