@@ -36,3 +36,20 @@ route -v get localhost
 
 traceroute www.baidu.com
 ```
+
+
+## Data Analysis
+
+```bash
+cat file | uniq -c | sort -nr | head -5
+du -chs
+
+```
+
+## Tips
+
+    mkdir -p dir
+    cd $_
+
+
+    killall -KILL php-fpm
